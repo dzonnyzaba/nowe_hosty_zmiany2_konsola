@@ -1,0 +1,52 @@
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+body{
+	background: grey;
+}
+
+.wysrodkuj-tekst{
+	text-align: center;
+}
+
+.do-lewej{
+	margin: 0 !important;
+}
+
+.dodaj{
+	background-color: LightGreen !important;
+	border: solid 2px LimeGreen !important;
+}
+
+.dodaj:hover{
+	background-color: LimeGreen !important;
+}
+
+.przycisk{
+	display: block;
+	width: 150px;
+	padding: 20px;
+	background-color: #ce7d84;
+	margin: 15px auto 0 auto;
+	border-radius: 3px;
+	border: solid 2px #6d171e;
+}
+
+.przycisk:hover{
+	background-color: #6d171e;
+	cursor: pointer;
+}
+
+a p{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+form submit{
+	background-color: black;
+}

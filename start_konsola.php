@@ -94,13 +94,13 @@ class test{
 			$mail->Host = 'smtp.gmail.com';
 			$mail->Port = 587;
 			$mail->SMTPAuth = true;
-			$mail->Username = "chrumchrum00@gmail.com";
-			$mail->Password = "tataswinka";
+			$mail->Username = "mail@gmail.com";
+			$mail->Password = "jakieshaslo";
 			$mail->SMTPSecure = 'ssl';
 
 			#$mail->From = ''; #
 			$mail->FromName = 'program';
-			$mail->AddAddress('chrumchrum00@gmail.com');
+			$mail->AddAddress('mail@gmail.com');
 
 			$mail->IsHTML(true);
 

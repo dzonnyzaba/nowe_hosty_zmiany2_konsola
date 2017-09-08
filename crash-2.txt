@@ -1,4 +1,4 @@
-date/time         : 2017-09-07, 09:43:16, 708ms
+date/time         : 2017-09-07, 10:14:22, 114ms
 computer name     : SD-K383
 user name         : sd-k383
 registered owner  : U¿ytkownik systemu Windows
@@ -7,11 +7,11 @@ system language   : Polish
 system up time    : 20 days 2 hours
 program up time   : 11 seconds
 processors        : 4x Intel(R) Core(TM) i3-4130 CPU @ 3.40GHz
-physical memory   : 1536/4009 MB (free/total)
-free disk space   : (C:) 391,80 GB
+physical memory   : 1584/4009 MB (free/total)
+free disk space   : (C:) 391,75 GB
 display mode      : 1920x1080, 32 bit
-process id        : $e50
-allocated memory  : 26,15 MB
+process id        : $3134
+allocated memory  : 26,33 MB
 command line      : "C:\xampp\sendmail\sendmail.exe" -t
 executable        : sendmail.exe
 exec. date/time   : 2012-04-16 19:30
@@ -22,7 +22,7 @@ exception number  : 1
 exception class   : EIdConnectTimeout
 exception message : Connect timed out.
 
-main thread ($24c4):
+main thread ($1078):
 0041fa42 +000e sendmail.exe IdException                    112   +1 EIdException.Toss
 0044092e +014e sendmail.exe IdIOHandlerStack               279  +38 DoConnectTimeout
 00440b4c +01d8 sendmail.exe IdIOHandlerStack               346  +55 TIdIOHandlerStack.ConnectClient
@@ -35,35 +35,35 @@ main thread ($24c4):
 004b5f14 +1060 sendmail.exe sendmail                       808 +326 initialization
 770f8742 +0022 KERNEL32.DLL                                         BaseThreadInitThunk
 
-thread $e30:
+thread $24f8:
 770f8742 +22 KERNEL32.DLL  BaseThreadInitThunk
 
-thread $2fbc:
+thread $808:
 770f8742 +22 KERNEL32.DLL  BaseThreadInitThunk
 
-thread $273c:
+thread $368c:
 770f8742 +22 KERNEL32.DLL  BaseThreadInitThunk
 
 stack dump:
 0019fcbc  47 fa 41 00 de fa ed 0e - 01 00 00 00 07 00 00 00  G.A.............
-0019fccc  d0 fc 19 00 47 fa 41 00 - b0 51 38 02 34 b0 43 00  ....G.A..Q8.4.C.
-0019fcdc  28 b1 39 02 54 fd 19 00 - 20 fd 19 00 ec fc 19 00  (.9.T...........
+0019fccc  d0 fc 19 00 47 fa 41 00 - b0 51 55 02 34 b0 43 00  ....G.A..QU.4.C.
+0019fcdc  28 b1 56 02 54 fd 19 00 - 20 fd 19 00 ec fc 19 00  (.V.T...........
 0019fcec  7d 00 00 00 00 00 00 00 - 33 09 44 00 04 fd 19 00  }.......3.D.....
 0019fcfc  c8 4b 40 00 20 fd 19 00 - 2c fd 19 00 c8 4b 40 00  .K@.....,....K@.
 0019fd0c  20 fd 19 00 4b 02 00 00 - 00 00 00 00 00 00 00 00  ....K...........
-0019fd1c  b0 8b 34 02 58 fd 19 00 - 51 0b 44 00 58 fd 19 00  ..4.X...Q.D.X...
+0019fd1c  b0 8b 51 02 58 fd 19 00 - 51 0b 44 00 58 fd 19 00  ..Q.X...Q.D.X...
 0019fd2c  60 fd 19 00 c8 4b 40 00 - 58 fd 19 00 b4 4e 4b 00  `....K@.X....NK.
-0019fd3c  40 5b 33 02 40 5b 33 02 - 10 6b 37 02 00 00 00 00  @[3.@[3..k7.....
-0019fd4c  00 00 00 00 00 00 00 00 - 40 5b 33 02 74 fd 19 00  ........@[3.t...
+0019fd3c  40 5b 50 02 40 5b 50 02 - 10 6b 54 02 00 00 00 00  @[P.@[P..kT.....
+0019fd4c  00 00 00 00 00 00 00 00 - 40 5b 50 02 74 fd 19 00  ........@[P.t...
 0019fd5c  52 55 46 00 88 fd 19 00 - c8 4b 40 00 74 fd 19 00  RUF......K@.t...
-0019fd6c  b4 4e 4b 01 40 5b 33 02 - bc fd 19 00 a5 4a 44 00  .NK.@[3......JD.
-0019fd7c  40 5b 33 02 3c 56 46 00 - 83 15 44 00 94 fd 19 00  @[3.<VF...D.....
+0019fd6c  b4 4e 4b 01 40 5b 50 02 - bc fd 19 00 a5 4a 44 00  .NK.@[P......JD.
+0019fd7c  40 5b 50 02 3c 56 46 00 - 83 15 44 00 94 fd 19 00  @[P.<VF...D.....
 0019fd8c  5f 4d 40 00 bc fd 19 00 - e8 fd 19 00 c8 4b 40 00  _M@..........K@.
-0019fd9c  bc fd 19 00 b4 4e 4b 00 - 40 5b 33 02 e0 59 33 02  .....NK.@[3..Y3.
-0019fdac  12 57 46 00 40 5b 33 02 - 00 00 00 00 e0 59 33 02  .WF.@[3......Y3.
+0019fd9c  bc fd 19 00 b4 4e 4b 00 - 40 5b 50 02 e0 59 50 02  .....NK.@[P..YP.
+0019fdac  12 57 46 00 40 5b 50 02 - 00 00 00 00 e0 59 50 02  .WF.@[P......YP.
 0019fdbc  e0 fd 19 00 cd 5c 44 00 - b4 4e 4b 00 ff 00 00 00  .....\D..NK.....
 0019fdcc  80 ab 45 00 b4 4e 4b 00 - b4 4e 4b 00 ff 00 00 00  ..E..NK..NK.....
-0019fddc  e0 59 33 02 80 ff 19 00 - 1a 5f 4b 00 f4 fd 19 00  .Y3......_K.....
+0019fddc  e0 59 50 02 80 ff 19 00 - 1a 5f 4b 00 f4 fd 19 00  .YP......_K.....
 0019fdec  c8 4b 40 00 80 ff 19 00 - 00 fe 19 00 c8 4b 40 00  .K@..........K@.
 
 disassembling:

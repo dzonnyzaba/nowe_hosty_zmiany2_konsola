@@ -60,9 +60,9 @@ class test{
 				if($tabelka){
 
 				echo $tabelka."</table>";
-				/*$to = 'antoni.rudolfo@onet.eu';
+				/*$to = 'jakismail@wp.pl';
 				$subject = "meile ido";
-				$from = 'jpalubski@wp.pl';
+				$from = 'innymail@wp.pl';
 				mail($to, $subject, 'jakaś treść', 'From: '.$from);*/
 				}
 			}
